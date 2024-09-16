@@ -439,15 +439,27 @@
 
           <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
             <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-app">App</li>
-            <li data-filter=".filter-product">Product</li>
-            <li data-filter=".filter-branding">Branding</li>
-            <li data-filter=".filter-books">Books</li>
+            <li data-filter=".filter-web">Applications Web</li>
+            <li data-filter=".filter-mob">Applications Mobile</li>
+            <!-- <li data-filter=".filter-art">Articles</li> -->
+            <li data-filter=".filter-etc">Autres</li>
           </ul><!-- End Portfolio Filters -->
 
           <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web filter-mob">
+              <img src="assets/img/portfolio/covid.jpg" class="img-fluid" alt="Tourisme Intelligent">
+              <div class="portfolio-info">
+                <h4>Gestion des alertes sanitaires et des crises</h4>
+                <p>Contribution, en raison du COVID-19, à la conception d’un système de gestion des alertes sanitaires et des crises.</p>
+                <a href="assets/img/portfolio/app-1.jpg" title="Tourisme Intelligent"
+                  data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-mob">
               <img src="assets/img/portfolio/app-1.jpg" class="img-fluid" alt="Tourisme Intelligent">
               <div class="portfolio-info">
                 <h4>Tourisme Intelligent</h4>
@@ -460,7 +472,7 @@
               </div>
             </div><!-- End Portfolio Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-mob">
               <img src="assets/img/portfolio/app-2.jpg" class="img-fluid" alt="Application de Gestion des Absences">
               <div class="portfolio-info">
                 <h4>Gestion des Absences</h4>
@@ -472,8 +484,8 @@
               </div>
             </div><!-- End Portfolio Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <img src="assets/img/portfolio/product-1.jpg" class="img-fluid" alt="Plateforme de Gestion de Scolarité">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web">
+              <img src="assets/img/portfolio/scolarité.png" class="img-fluid" alt="Plateforme de Gestion de Scolarité">
               <div class="portfolio-info">
                 <h4>Gestion de Scolarité</h4>
                 <p>Développement d'une plateforme de gestion de scolarité pour l'ESI sous la forme de microservices.</p>
@@ -485,10 +497,10 @@
               </div>
             </div><!-- End Portfolio Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <img src="assets/img/portfolio/branding-1.jpg" class="img-fluid" alt="Système de Gestion des Activités">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web">
+              <img src="assets/img/portfolio/labs.jpg" class="img-fluid" alt="Système de Gestion des Activités">
               <div class="portfolio-info">
-                <h4>Gestion des Activités</h4>
+                <h4>Activités des Laboratoires de Recherche</h4>
                 <p>Création d’un système de gestion des activités de laboratoire avec Django et Angular.</p>
                 <a href="assets/img/portfolio/branding-1.jpg" title="Gestion des Activités"
                   data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
@@ -498,12 +510,36 @@
               </div>
             </div><!-- End Portfolio Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-              <img src="assets/img/portfolio/books-1.jpg" class="img-fluid" alt="Système d'Affectation des Examens">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-etc">
+              <img src="assets/img/portfolio/exam.png" class="img-fluid" alt="Système d'Affectation des Examens">
               <div class="portfolio-info">
                 <h4>Affectation des Examens</h4>
                 <p>Développement d’un système d’affectation des étudiants aux salles d’examen en VB.Net et Microsoft
                   Access.</p>
+                <a href="assets/img/portfolio/books-1.jpg" title="Affectation des Examens"
+                  data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-mob">
+              <img src="assets/img/portfolio/market.webp" class="img-fluid" alt="Gestion de Magasin">
+              <div class="portfolio-info">
+                <h4>Gestion de Magasin</h4>
+                <p>Développement d'une solution web et mobile de gestion de magasin en utilisant Flutter, Django et Firebase.</p>
+                <a href="assets/img/portfolio/books-1.jpg" title="Affectation des Examens"
+                  data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-mob">
+              <img src="assets/img/portfolio/qr-student.avif" class="img-fluid" alt="Émargement automatique des étudiants">
+              <div class="portfolio-info">
+                <h4>Émargement automatique des étudiants</h4>
+                <p>Développement d'une application mobile pour la gestion des absences des étudiants de l’ESI en utilisant Kotlin.</p>
                 <a href="assets/img/portfolio/books-1.jpg" title="Affectation des Examens"
                   data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i
@@ -537,42 +573,42 @@
           <div class="col-lg-6">
             <div class="pricing-item d-flex justify-content-between">
               <h3>Consultation Initiale</h3>
-              <h4>$100.00</h4>
+              <h4>xx.xx€</h4>
             </div>
           </div><!-- End Pricing Item -->
 
           <div class="col-lg-6">
             <div class="pricing-item d-flex justify-content-between">
               <h3>Développement Web</h3>
-              <h4>$1500.00</h4>
+              <h4>xx.xx€</h4>
             </div>
           </div><!-- End Pricing Item -->
 
           <div class="col-lg-6">
             <div class="pricing-item d-flex justify-content-between">
               <h3>Maintenance Mensuelle</h3>
-              <h4>$200.00</h4>
+              <h4>xx.xx€</h4>
             </div>
           </div><!-- End Pricing Item -->
 
           <div class="col-lg-6">
             <div class="pricing-item d-flex justify-content-between">
               <h3>Design Graphique</h3>
-              <h4>$800.00</h4>
+              <h4>xx.xx€</h4>
             </div>
           </div><!-- End Pricing Item -->
 
           <div class="col-lg-6">
             <div class="pricing-item d-flex justify-content-between">
               <h3>Optimisation SEO</h3>
-              <h4>$600.00</h4>
+              <h4>xx.xx€</h4>
             </div>
           </div><!-- End Pricing Item -->
 
           <div class="col-lg-6">
             <div class="pricing-item d-flex justify-content-between">
               <h3>Formation en Ligne</h3>
-              <h4>$300.00</h4>
+              <h4>xx.xx€</h4>
             </div>
           </div><!-- End Pricing Item -->
 
@@ -659,15 +695,16 @@
       </div>
 
     </section><!-- /Faq Section -->
-<!-- Testimonials Section -->
-<section id="testimonials" class="testimonials section accent-background">
 
-  <img src="assets/img/testimonials-bg.jpg" class="testimonials-bg" alt="Background Image">
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section accent-background">
 
-  <div class="container" data-aos="fade-up" data-aos-delay="100">
+      <img src="assets/img/testimonials-bg.jpg" class="testimonials-bg" alt="Background Image">
 
-    <div class="swiper init-swiper">
-      <script type="application/json" class="swiper-config">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
         {
           "loop": true,
           "speed": 600,
@@ -682,215 +719,230 @@
           }
         }
       </script>
-      <div class="swiper-wrapper">
+          <div class="swiper-wrapper">
 
-        <div class="swiper-slide">
-          <div class="testimonial-item">
-            <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="Saul Goodman">
-            <h3>Saul Goodman</h3>
-            <h4>CEO & Founder</h4>
-            <div class="stars">
-              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-            </div>
-            <p>
-              <i class="bi bi-quote quote-icon-left"></i>
-              <span>Excellent service and top-notch quality. The team went above and beyond to meet our needs and
-                deliver a product that exceeded our expectations.</span>
-              <i class="bi bi-quote quote-icon-right"></i>
-            </p>
-          </div>
-        </div><!-- End testimonial item -->
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="Ahmed Benali">
+                <h3>Ahmed Benali</h3>
+                <h4>PDG & Fondateur</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Service excellent et qualité de premier ordre. L'équipe a surpassé nos attentes et a livré un
+                    produit qui a largement répondu à nos besoins.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
 
-        <div class="swiper-slide">
-          <div class="testimonial-item">
-            <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="Sara Wilsson">
-            <h3>Sara Wilsson</h3>
-            <h4>Designer</h4>
-            <div class="stars">
-              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-            </div>
-            <p>
-              <i class="bi bi-quote quote-icon-left"></i>
-              <span>Great collaboration and outstanding results. Their creativity and attention to detail are truly
-                impressive. I highly recommend their services.</span>
-              <i class="bi bi-quote quote-icon-right"></i>
-            </p>
-          </div>
-        </div><!-- End testimonial item -->
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="Lina Ait Ali">
+                <h3>Lina Ait Ali</h3>
+                <h4>Designer</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Une collaboration formidable et des résultats exceptionnels. Leur créativité et leur souci du
+                    détail sont vraiment impressionnants. Je recommande vivement leurs services.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
 
-        <div class="swiper-slide">
-          <div class="testimonial-item">
-            <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="Jena Karlis">
-            <h3>Jena Karlis</h3>
-            <h4>Store Owner</h4>
-            <div class="stars">
-              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-            </div>
-            <p>
-              <i class="bi bi-quote quote-icon-left"></i>
-              <span>Exceptional experience from start to finish. They understood our vision and delivered a product
-                that perfectly aligns with our brand.</span>
-              <i class="bi bi-quote quote-icon-right"></i>
-            </p>
-          </div>
-        </div><!-- End testimonial item -->
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="Rachid Bouzid">
+                <h3>Rachid Bouzid</h3>
+                <h4>Propriétaire de Magasin</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Une expérience exceptionnelle du début à la fin. Ils ont compris notre vision et ont livré un
+                    produit parfaitement aligné avec notre marque.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
 
-        <div class="swiper-slide">
-          <div class="testimonial-item">
-            <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="Matt Brandon">
-            <h3>Matt Brandon</h3>
-            <h4>Freelancer</h4>
-            <div class="stars">
-              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-            </div>
-            <p>
-              <i class="bi bi-quote quote-icon-left"></i>
-              <span>Professionalism and quality are their trademarks. I am thoroughly impressed with their ability
-                to deliver high-quality results in a timely manner.</span>
-              <i class="bi bi-quote quote-icon-right"></i>
-            </p>
-          </div>
-        </div><!-- End testimonial item -->
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="Khaled Youssef">
+                <h3>Khaled Youssef</h3>
+                <h4>Freelancer</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Le professionnalisme et la qualité sont leurs marques de fabrique. Je suis entièrement
+                    impressionné par leur capacité à livrer des résultats de haute qualité dans un délai
+                    raisonnable.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
 
-        <div class="swiper-slide">
-          <div class="testimonial-item">
-            <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="John Larson">
-            <h3>John Larson</h3>
-            <h4>Entrepreneur</h4>
-            <div class="stars">
-              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-            </div>
-            <p>
-              <i class="bi bi-quote quote-icon-left"></i>
-              <span>From the initial consultation to the final product, the entire process was smooth and efficient.
-                Their expertise and dedication were evident throughout.</span>
-              <i class="bi bi-quote quote-icon-right"></i>
-            </p>
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="Samira Messaoudi">
+                <h3>Samira Messaoudi</h3>
+                <h4>Entrepreneuse</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Du premier contact au produit final, le processus a été fluide et efficace. Leur expertise et
+                    leur dévouement étaient évidents tout au long.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
           </div>
-        </div><!-- End testimonial item -->
+          <div class="swiper-pagination"></div>
+        </div>
 
       </div>
-      <div class="swiper-pagination"></div>
+
+    </section><!-- End Testimonials Section -->
+
+<!-- Contact Section -->
+<section id="contact" class="contact section">
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Contact</h2>
+    <p>Pour toute question ou demande, n'hésitez pas à me contacter.</p>
+  </div><!-- End Section Title -->
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+    <div class="info-wrap" data-aos="fade-up" data-aos-delay="200">
+      <div class="row gy-5">
+
+        <div class="col-lg-4">
+          <div class="info-item d-flex align-items-center">
+            <i class="bi bi-geo-alt flex-shrink-0"></i>
+            <div>
+              <h3>Adresse</h3>
+              <p>Île-de-France, France</p>
+            </div>
+          </div>
+        </div><!-- End Info Item -->
+
+        <div class="col-lg-4">
+          <div class="info-item d-flex align-items-center">
+            <i class="bi bi-telephone flex-shrink-0"></i>
+            <div>
+              <h3>Appellez-moi</h3>
+              <p>07 80 60 36 27</p>
+            </div>
+          </div>
+        </div><!-- End Info Item -->
+
+        <div class="col-lg-4">
+          <div class="info-item d-flex align-items-center">
+            <i class="bi bi-envelope flex-shrink-0"></i>
+            <div>
+              <h3>Envoyez-moi un email</h3>
+              <p><a href="mailto:khalifa.serraye@gmail.com">khalifa.serraye@gmail.com</a></p>
+            </div>
+          </div>
+        </div><!-- End Info Item -->
+
+      </div>
+    </div>
+
+<!-- Contact Form -->
+<form id="contactForm" class="php-email-form" data-aos="fade-up" data-aos-delay="300">
+  <div class="row gy-4">
+
+    <div class="col-md-6">
+      <label for="name">Votre Nom</label>
+      <input type="text" id="name" name="name" class="form-control" placeholder="Votre Nom" required="">
+    </div>
+
+    <div class="col-md-6">
+      <label for="email">Votre Email</label>
+      <input type="email" id="email" class="form-control" name="email" placeholder="Votre Email" required="">
+    </div>
+
+    <div class="col-md-12">
+      <label for="subject">Objet</label>
+      <input type="text" id="subject" class="form-control" name="subject" placeholder="Objet" required="">
+    </div>
+
+    <div class="col-md-12">
+      <label for="message">Message</label>
+      <textarea id="message" class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+    </div>
+
+    <div class="col-md-12 text-center">
+      <div class="loading" style="display:none;">Chargement</div>
+      <div class="error-message" style="display:none;"></div>
+      <div class="sent-message" style="display:none;">Votre message a été envoyé. Merci !</div>
+
+      <button type="submit">Envoyer le message</button>
     </div>
 
   </div>
+</form><!-- End Contact Form -->
 
-</section><!-- /Testimonials Section -->
+<!-- JavaScript -->
+<script>
+  document.getElementById('contactForm').addEventListener('submit', function(event) {
+    event.preventDefault(); // Empêche la soumission du formulaire
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact section">
+    // Affiche un message indiquant que le service n'est pas encore disponible
+    alert('Le service de contact n\'est pas encore disponible. Merci de votre compréhension.');
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Contact</h2>
-        <p>Pour toute question ou demande, n'hésitez pas à nous contacter</p>
-      </div><!-- End Section Title -->
+    // Optionnel : Vous pouvez également afficher un message sur la page
+    document.querySelector('.sent-message').style.display = 'block';
+    document.querySelector('.sent-message').innerText = 'Le service de contact n\'est pas encore disponible. Merci de votre compréhension.';
+  });
+</script>
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
+  </div>
 
-        <div class="info-wrap" data-aos="fade-up" data-aos-delay="200">
-          <div class="row gy-5">
-
-            <div class="col-lg-4">
-              <div class="info-item d-flex align-items-center">
-                <i class="bi bi-geo-alt flex-shrink-0"></i>
-                <div>
-                  <h3>Adresse</h3>
-                  <p>A108 Adam Street, New York, NY 535022</p>
-                </div>
-              </div>
-            </div><!-- End Info Item -->
-
-            <div class="col-lg-4">
-              <div class="info-item d-flex align-items-center">
-                <i class="bi bi-telephone flex-shrink-0"></i>
-                <div>
-                  <h3>Appellez-nous</h3>
-                  <p>+1 5589 55488 55</p>
-                </div>
-              </div>
-            </div><!-- End Info Item -->
-
-            <div class="col-lg-4">
-              <div class="info-item d-flex align-items-center">
-                <i class="bi bi-envelope flex-shrink-0"></i>
-                <div>
-                  <h3>Envoyez-nous un email</h3>
-                  <p><a href="mailto:info@example.com">info@example.com</a></p>
-                </div>
-              </div>
-            </div><!-- End Info Item -->
-
-          </div>
-        </div>
-
-        <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="300">
-          <div class="row gy-4">
-
-            <div class="col-md-6">
-              <label for="name">Votre Nom</label>
-              <input type="text" id="name" name="name" class="form-control" placeholder="Votre Nom" required="">
-            </div>
-
-            <div class="col-md-6">
-              <label for="email">Votre Email</label>
-              <input type="email" id="email" class="form-control" name="email" placeholder="Votre Email" required="">
-            </div>
-
-            <div class="col-md-12">
-              <label for="subject">Objet</label>
-              <input type="text" id="subject" class="form-control" name="subject" placeholder="Objet" required="">
-            </div>
-
-            <div class="col-md-12">
-              <label for="message">Message</label>
-              <textarea id="message" class="form-control" name="message" rows="6" placeholder="Message"
-                required=""></textarea>
-            </div>
-
-            <div class="col-md-12 text-center">
-              <div class="loading">Chargement</div>
-              <div class="error-message"></div>
-              <div class="sent-message">Votre message a été envoyé. Merci !</div>
-
-              <button type="submit">Envoyer le message</button>
-            </div>
-
-          </div>
-        </form><!-- End Contact Form -->
-
-      </div>
-
-    </section><!-- /Contact Section -->
+</section><!-- End Contact Section -->
 
   </main>
 
   <footer id="footer" class="footer accent-background">
 
     <div class="container">
-      <div class="copyright text-center ">
-        <p>© <span>Copyright</span> <strong class="px-1 sitename">DevFolio</strong> <span>All Rights Reserved</span></p>
+      <div class="copyright text-center">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">Khalifa SERRAYE</strong> <span>Tous droits réservés</span></p>
       </div>
       <div class="social-links d-flex justify-content-center">
-        <a href=""><i class="bi bi-twitter-x"></i></a>
-        <a href=""><i class="bi bi-facebook"></i></a>
-        <a href=""><i class="bi bi-instagram"></i></a>
-        <a href=""><i class="bi bi-linkedin"></i></a>
+        <a href="#"><i class="bi bi-twitter"></i></a>
+        <a href="#"><i class="bi bi-facebook"></i></a>
+        <a href="#"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/khalifaserraye/"><i class="bi bi-linkedin"></i></a>
       </div>
       <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        <!-- Tous les liens dans le pied de page doivent rester intacts. -->
+        <!-- Vous pouvez supprimer les liens uniquement si vous avez acheté la version pro. -->
+        <!-- Informations sur la licence : https://bootstrapmade.com/license/ -->
+        <!-- Achetez la version pro avec un formulaire de contact PHP/AJAX fonctionnel : [buy-url] -->
+        Conçu par Khalifa Serraye
       </div>
     </div>
-
+    
   </footer>
 
   <!-- Scroll Top -->
