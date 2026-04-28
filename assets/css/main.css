@@ -318,6 +318,27 @@ h6 {
   }
 }
 
+/* Navbar bleu */
+.header {
+  background-color: #0078ff;
+}
+
+.header .sitename,
+.header .navmenu a,
+.header .mobile-nav-toggle {
+  color: #ffffff;
+}
+
+.header .navmenu a:hover,
+.header .navmenu .active,
+.header .navmenu .active:focus {
+  color: #ffffff;
+}
+
+.header .navmenu > ul > li > a:before {
+  background-color: #ffffff;
+}
+  
 /* Mobile Navigation */
 @media (max-width: 1199px) {
   .mobile-nav-toggle {
